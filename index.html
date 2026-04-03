@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website Gue</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #020617, #0f172a);
+            color: white;
+            font-family: Arial;
+            margin: 0;
+        }
+        header {
+            padding: 30px;
+            text-align: center;
+            background: #020617;
+        }
+        img {
+            width: 150px;
+            border-radius: 50%;
+            border: 3px solid #38bdf8;
+        }
+        .container {
+            padding: 20px;
+        }
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 15px;
+            margin: 15px auto;
+            max-width: 600px;
+        }
+        h2 {
+            color: #38bdf8;
+        }
+        ul {
+            text-align: left;
+        }
+        .crush {
+            border: 2px solid pink;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #020617;
+            margin-top: 20px;
+        }
+        button {
+            background: #38bdf8;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Halo, Gue zia 👋</h1>
+    <p>Website pribadi versi lengkap 😎</p>
+    <img src="foto.jpg">
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>🧾 Biodata</h2>
+<p>Nama: panggil aja zia</p>
+<p>Umur: gaada yang tau insyaallah panjang</p>
+<p>Status: Pelajar</p>
+</div>
+
+<div class="card">
+<h2>🧠 Tentang Gue</h2>
+<p>Gue orangnya santai, suka mikir, kadang overthinking 😅</p>
+<p id="more" style="display:none;">
+Gue punya banyak mimpi dan lagi berusaha pelan-pelan buat nyampe ke sana.
+</p>
+<button onclick="toggle()">Lebih tau</button>
+</div>
+
+<div class="card">
+<h2>🔥 Skill</h2>
+<ul>
+<li>Gaming 🎮</li>
+<li>HTML basic 💻</li>
+<li>Editing 🎨</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>🎮 Game Favorit</h2>
+<ul>
+<li>Far Cry 4</li>
+<li>Valorant</li>
+<li>WWatch Dogs 2</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>🎧 Musik Favorit</h2>
+<ul>
+<li>Iris - Goo Goo Dols </li>
+<li>Kota Ini Tak Sama Tanpamu - Nadhif Basalamah </li>
+<li>Fortunate Son - Creedence Clearwater Revival </li>
+</ul>
+</div>
+
+<div class="card">
+<h2>⏰ Rutinitas</h2>
+<ul>
+<li>Sekolah 📚</li>
+<li>Main game 🎮</li>
+<li>Belajar coding 💻</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>😏 Fakta Unik</h2>
+<ul>
+<li>Lebih nyaman diem daripada rame</li>
+<li>Suka mikir jauh ke depan</li>
+<li>Kadang random</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>🏆 Achievement</h2>
+<p>Masih proses... tapi terus berkembang 🔥</p>
+</div>
+
+<div class="card crush">
+<h2>❤️ Someone Special</h2>
+<p>Ada satu orang yang beda dari yang lain 
+    kita sering ngobrol di chat tapi kalo ketemu kaya ga kenal wkwk, dia orang nya pintar cakep dan 
+    baik deh, kita punya banyak persamaan kayak lagu yang sama, film yang sama pokoknya banyak deh.
+    dia orangnya asik banget, kita sering ngobrol meski lewat chat atau dm wkwk </p>
+<p>aku harap kita bisa bersama selamanya E.K </p>
+</div>
+
+<div class="card">
+<h2>💭 Quotes</h2>
+<p>"Pelan-pelan aja, yang penting nggak berhenti."</p>
+</div>
+
+<div class="card">
+<h2>📱 Kontak</h2>
+<p>Instagram: ziarainu_24</p>
+<p>Email: ziapetualang@gmail.com</p>
+</div>
+
+<div class="card">
+<button onclick="alert('Thanks udah mampir 😎🔥')">Klik disini</button>
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 Website Gue</p>
+</footer>
+
+<script>
+function toggle() {
+    var x = document.getElementById("more");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>
